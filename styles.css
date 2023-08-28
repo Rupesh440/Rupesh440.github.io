@@ -1,52 +1,44 @@
-/* Reset some default styles */
-body, h1, ul {
-    margin: 0;
-    padding: 0;
-}
+/* Advanced CSS styles for an example */
 
-/* Apply a background color and fonts */
+/* Global styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
 }
 
-/* Style the header */
+/* Header styles */
 header {
-    background-color: #333;
+    background-image: url('images/header-bg.jpg');
+    background-size: cover;
     color: #fff;
-    padding: 20px;
     text-align: center;
+    padding: 100px;
 }
 
-header h1 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* Style the sections */
-section {
-    padding: 40px;
-}
-
-/* Style the footer */
-footer {
+/* Navigation styles */
+nav {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px;
 }
+
+/* Section styles */
+section {
+    padding: 40px;
+}
+
+/* Portfolio item styles */
+.portfolio-item {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+/* Advanced styling for other sections, including About, Resume, and Contact */
